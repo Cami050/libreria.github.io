@@ -1,0 +1,24 @@
+body{
+    background-color: yellow;
+}
+
+.row{
+     margin-top:80px;
+     margin-left: 550px;
+     background-color: aqua ;
+     border: solid 5px;
+     width: 300px;
+     height: 420px;
+     box-shadow: 20px black;
+     border-radius: 20px;
+
+}
+
+
+#formu{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin-left: 50px;
+  
+
+}

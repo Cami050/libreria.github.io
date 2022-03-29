@@ -1,0 +1,53 @@
+
+<html>
+	<head>
+		<title>Libreria</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div class="row justify-content" >
+		<form id="formu" action="recoger2.php" method="post">
+			<h1>Formulario </h1>
+			<label>Codigo</label><br>
+			<input  id="cam"  type="text" name="Codigo" size="20" placeholder="Digite el codigo del libro" required/><br>
+			<label>Titulo</label><br>
+			<input   id="cam"  type="text" name="Titulo" min="10" max="75" placeholder="Digite el Titulo del libro" required/><br>
+			<label> Autor </label><br>
+			<input  id="cam"  type="text" name="Autor" placeholder="Digite el Autor del libro" required/><br>
+			<label>Genero</label><br>
+			<select  id="cam"  name="Genero">
+				<option>Aventura</option>
+				<option>Fantacia</option>
+				<option>Novela</option>
+				<option>Terror</option>
+				<option>Comedia</option>
+				<option>Romantico</option>
+				<option>Poesía</option>
+				<option>Mitología</option>
+				<option>Teatro</option>
+				<option>Cuento</option>
+			</select>
+			<br>
+			<label> Editorial</label><br>
+			<input id="cam"   type="text" name="Editorial" placeholder="Digite la Editorial" required/><br>
+			<label>Cantidad</label><br>
+			<input  id="cam" type="number" name="Cantidad" placeholder="Cantidad del mismo libro" required/><br>
+			<label>Fecha de publicacion</label><br>
+			<input  id="cam" type="date" name="Fecha_Publicacion" placeholder="Fecha de Publicacion" required/><br>
+			<label>Edicion </label><br>
+			<input  id="cam"  type="text" name="Edicion" placeholder="Edicion del libro" required/><br>
+			<br>
+			<input id="boton" type="submit" value="Guardar" />
+			
+		</div>
+		<a  href="inicio.html"><input id="botonf"  type="submit" value="Volver" ><br></a>
+		</form>
+		<a  href="inicio.html"><input id="botonf"  type="submit" value="Volver" ><br></a> 
+	</body>
+	
+</html>
+
+
+
